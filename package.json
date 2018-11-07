@@ -1,0 +1,38 @@
+{
+  "name": "ajax-store",
+  "version": "0.1.0",
+  "description": "Ajax store, handle the sync with the server, and cache the results.",
+  "files": [
+    "js/AjaxStore.js"
+  ],
+  "main": "js/AjaxStore.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./js --ext .js",
+    "lint:fix": "./node_modules/.bin/eslint ./js --ext .js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3nl/ajax-store.git"
+  },
+  "keywords": [
+    "javascript",
+    "ajax",
+    "store",
+    "cache",
+    "axios",
+    "promise"
+  ],
+  "author": "Pieter Wigboldus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w3nl/ajax-store/issues"
+  },
+  "homepage": "https://github.com/w3nl/ajax-store#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  }
+}
