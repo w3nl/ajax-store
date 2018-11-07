@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 /**
  * Ajax store, handle the sync with the server, and cache the results in the store.
  */

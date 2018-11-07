@@ -6,7 +6,7 @@
         "browser": true
     },
     "globals": {
-        "BootstrapTabs": false
+        "axios": false
     },
     "rules": {
         "no-console": "error",
