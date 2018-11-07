@@ -1,5 +1,5 @@
 {
-  "name": "ajax-store",
+  "name": "ajax-store-service",
   "version": "0.1.0",
   "description": "Ajax store, handle the sync with the server, and cache the results.",
   "files": [
