@@ -6,11 +6,13 @@ import axios from 'axios';
 class AjaxStore {
     /**
      * Set the variables.
+     *
+     * @param {object} options
      */
-    constructor() {
-        this.store = [];
-        this.route;
-        this.name = 'base';
+    constructor(options = {}) {
+        this.store = options.store || [];
+        this.route = options.route || null;
+        this.name = options.name || 'base';
     }
 
     /**

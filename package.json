@@ -1,6 +1,6 @@
 {
   "name": "ajax-store-service",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Ajax store, handle the sync with the server, and cache the results.",
   "main": "dist/index.js",
   "files": [
