@@ -1,1 +1,1 @@
-module.exports = require('./js/AjaxStore');
+module.exports = require('./dist/AjaxStore');

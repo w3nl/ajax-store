@@ -118,4 +118,4 @@ class AjaxStore {
     }
 }
 
-module.exports = AjaxStore;
+export default AjaxStore;

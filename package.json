@@ -1,12 +1,12 @@
 {
   "name": "ajax-store-service",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Ajax store, handle the sync with the server, and cache the results.",
+  "main": "dist/index.js",
   "files": [
-    "index.js",
-    "js/AjaxStore.js"
+    "dist/*.js",
+    "README.md"
   ],
-  "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint ./js --ext .js",
     "lint:fix": "./node_modules/.bin/eslint ./js --ext .js --fix",
