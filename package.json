@@ -1,6 +1,6 @@
 {
   "name": "ajax-store-service",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Ajax store, handle the sync with the server, and cache the results.",
   "main": "dist/index.js",
   "files": [
@@ -8,8 +8,8 @@
     "README.md"
   ],
   "scripts": {
-    "lint": "./node_modules/.bin/eslint ./js --ext .js",
-    "lint:fix": "./node_modules/.bin/eslint ./js --ext .js --fix",
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "lint:fix": "./node_modules/.bin/eslint . --ext .js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,9 +31,9 @@
   },
   "homepage": "https://github.com/w3nl/ajax-store#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.19.0"
   },
   "devDependencies": {
-    "eslint": "^5.8.0"
+    "eslint": "^5.16.0"
   }
 }
